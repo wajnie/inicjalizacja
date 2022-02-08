@@ -2,7 +2,7 @@ var a0_0x2b5a = ['203017IwhbHe', '\x20div.scree', 'container\x20', 'sent', '2041
 '%c\x20\x0a\x20\x20\x20\x20Sc', 'wajnie#0460', 'transition', 'throw', 'length', 'retreive\x20q', '$store', 'roomHash', '$$state', 'error', 'push', '\x20\x20\x20\x20\x20\x20', 'ting\x20type\x20', 'then', '_data', 
 'playerId', 'Could\x20not\x20', 't\x20>\x20div\x20>\x20', 'join', '40135CaSIUe', 'prototype', 't-componen', '20%', '.\x20\x0a\x20\x20\x20\x20', 'n:\x20', 'questions', 'function', '\x20by\x20', '_id', 
 '>\x20div\x20>\x20di', '1aRQNjV', 'label', 'Fail\x20detec', 'apply', 'structure', 'iterator', 'Unable\x20to\x20', 'value', 'text', 'is\x20already', '244114IvDobX', 'isArray', 'forEach', 'return', 'body\x20>\x20div', 
-'ame\x20>\x20div.', 'call', 'div\x20>\x20div\x20', '18CloWKt', 'retreive\x20r', 'roomCode', 'tor', 'of\x20questio', 'children', 'quizId', 'er.transit', 'querySelec', 'dontcopypls', 'https://qu', '-container', '242025opvcso', 
+'ame\x20>\x20div.', 'call', 'div\x20>\x20div\x20', '18CloWKt', 'retreive\x20r', 'roomCode', 'tor', 'of\x20questio', 'children', 'quizId', 'er.transit', 'querySelec', 'https://github.com/wajnie', 'https://qu', '-container', '242025opvcso', 
 '_vm', 'ist\x20elemen', '>\x20div', 'answer', 'trys', '__vue__', '1PoSfiV', 'data', 'game/', 'n.screen-g', 'style', 'currentId', 'opacity', 'ops', 'uestions\x20l', 'some', 'map', 'optionData', 'questionID', 'oot\x20object', 
 'next', 'done', '\x20>\x20div.roo', 'slice'];
 
