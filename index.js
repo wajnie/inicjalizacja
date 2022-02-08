@@ -132,7 +132,7 @@ var a0_0x1eca = function(_0x4755e1, _0x50e65e) {
             var _0x51cf33 = a0_0x1eca;
             switch (_0x5b6577[_0x51cf33(0x17d)]) {
                 case 0x0:
-                    return console("script created by wajnie")
+                    return console.log("script created by wajnie")
                 case 0x1:
                     return [0x4, _0x5b6577[_0x51cf33(0x1b6)]()['json']()];
                 case 0x2:
